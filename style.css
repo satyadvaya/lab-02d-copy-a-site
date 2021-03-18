@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 850px;
+    height: 850px;
+    display: grid;
+    grid-template-columns: 175px 550px 125px;
+}
+
+.leftbar {
+    border: solid 1px black;
+    width: 175px;
+    height: 850px;
+    display: grid;
+    grid-template-rows: 40px 45px 30px 120px 170px 160px 10px 10px;
+}
+
+.centerbar {
+    border: solid 1px black;
+    width: 550px;
+    height: 850px;
+    display: grid;
+    grid-template-rows: 50px 800px;
+}
+
+.rightbar {
+    border: solid 1px black;
+    width: 125px;
+    height: 850px;
+    display: grid;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px;
+}
